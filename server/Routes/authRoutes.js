@@ -5,7 +5,7 @@ const getuser = require("../middleware/getusermiddile");
 const jwt = require("jsonwebtoken");
 const cors = require("cors");
 const app = express();
-const jwt_SECRT = "sakshisharma123";
+const jwt_SECRT = "sakshi@sharma123";
 const bcrypt = require("bcrypt");
 const dotenv=require("dotenv");
 dotenv.config();
